@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translator App</title>
+
+</head>
+<style>
+    textarea {
+        width: 60%;
+        height: 10vh;
+        display: block;
+        margin: 16px;
+        padding: 30px;
+    }
+
+    #output {
+        border: 1px solid black;
+        height: 10vh;
+        width: 60%;
+        display: block;
+        margin: 20px;
+        padding: 30px;
+    }
+</style>
+
+<body>
+    <h1>Talk me some different language.</h1>
+    <textarea id="txt-input"
+        placeholder="Write something in this box. so i will translate in all this in different lanaguage."></textarea>
+    <button id="btn-translate">Translate</button>
+    <br><br>
+    <div style="font-size: medium;">Your Output is Here 👇🏻</div>
+    <div id="output"></div>
+    <script src="/app.js" type="text/javascript"></script>
+</body>
+
+</html>
