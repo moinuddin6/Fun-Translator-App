@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+textarea {
+    width: 60%;
+    height: 10vh;
+    display: block;
+    margin: 16px;
+    padding: 30px;
+}
+
+#output {
+    border: 1px solid black;
+    height: 10vh;
+    width: 60%;
+    display: block;
+    margin: 20px;
+    padding: 30px;
+}
+
